@@ -1,0 +1,36 @@
+{
+  "name": "alias-resolve-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinCK/alias-resolve-loader.git"
+  },
+  "author": "Igor Ognichenko <ognichenko.igor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinCK/alias-resolve-loader/issues"
+  },
+  "homepage": "https://github.com/RobinCK/alias-resolve-loader#readme",
+  "keywords": [
+    "aliases",
+    "style",
+    "webpack",
+    "css",
+    "less",
+    "sass",
+    "url",
+    "import",
+    "loader",
+    "preloader"
+  ],
+  "dependencies": {
+    "css-aliases": "^1.0.0",
+    "fs": "0.0.1-security",
+    "loader-utils": "^0.2.16"
+  }
+}
