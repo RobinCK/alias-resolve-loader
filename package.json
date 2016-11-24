@@ -1,6 +1,6 @@
 {
   "name": "alias-resolve-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack preLoader lets you create custom aliases for CSS,less and SASS properties with an @alias rule",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "preloader"
   ],
   "dependencies": {
-    "css-aliases": "^1.0.0",
+    "css-aliases": "^1.1.1",
     "fs": "0.0.1-security",
     "loader-utils": "^0.2.16"
   }
