@@ -1,4 +1,5 @@
 <div align="center">
+  
   [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)[![Build Status](https://img.shields.io/travis/RobinCK/alias-resolve-loader.svg?style=flat-square)](https://travis-ci.org/RobinCK/alias-resolve-loader)[![Code Climate](https://img.shields.io/codeclimate/github/RobinCK/alias-resolve-loader.svg?style=flat-square)](https://codeclimate.com/github/RobinCK/alias-resolve-loader)[![npm](https://img.shields.io/npm/dt/alias-resolve-loader.svg?style=flat-square)](https://github.com/RobinCK/alias-resolve-loader)[![Dependencies](https://david-dm.org/robinck/alias-resolve-loader.svg?style=flat-square)](https://david-dm.org/robinck/alias-resolve-loader)[![devDependencies](https://david-dm.org/robinck/alias-resolve-loader/dev-status.svg?style=flat-square)](https://david-dm.org/robinck/alias-resolve-loader#info=devDependencies&view=table)[![NPM version](https://img.shields.io/npm/v/alias-resolve-loader.svg?style=flat-square)](https://www.npmjs.com/package/alias-resolve-loader)
 </div>
 
