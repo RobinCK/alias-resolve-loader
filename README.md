@@ -8,13 +8,13 @@
 ## Install webpack 1.x
 
 ```
-$ npm install --save-dev alias-resolve-loader@1.0.5
+$ npm install --save-dev alias-resolve-loader@1.0.6
 ```
 
 ## Install webpack 2.x
 
 ```
-$ npm install --save-dev alias-resolve-loader@2.0.0
+$ npm install --save-dev alias-resolve-loader
 ```
 
 ## Example webpack 1.x config
