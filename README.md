@@ -5,16 +5,24 @@
 
 # Alias Resolve preLoader for webpack
 
-## Install
+## Install webpack 1.x
 
 ```
-$ npm install --save alias-resolve-loader
+$ npm install --save-dev alias-resolve-loader@1.0.5
 ```
 
-## Example webpack config
+## Install webpack 2.x
+
+```
+$ npm install --save-dev alias-resolve-loader@2.0.0
+```
+
+## Example webpack 1.x config
 
 ```js
 module.exports = {
+  //...
+  
   module: {
     preLoaders: [
       {
@@ -26,7 +34,36 @@ module.exports = {
   
   aliasesResolve: {
     "@aliasName": "path/to/your/folder"
-  }
+  },
+  
+  //...
+};
+```
+
+## Example webpack 2.x config
+
+```js
+module.exports = {
+  //...
+  
+  module: {
+    rules: [
+      {
+        enforce: 'pre',
+        test: /\.(less|scss|css)$/,
+        use: {
+          loader: 'alias-resolve-loader',
+          options: {
+            alias: {
+             "@aliasName": "path/to/your/folder"
+           }
+          }
+        },
+      }
+    ]
+  },
+  
+  //...
 };
 ```
 

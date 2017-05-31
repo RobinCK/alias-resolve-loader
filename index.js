@@ -1,17 +1,10 @@
-'use strict';
-
-var loaderUtils = require('loader-utils');
 var fs = require('fs');
+var loaderUtils = require('loader-utils');
 var cssAliasses = require('css-aliases');
 
-module.exports = function () {
-  var loader = this;
-  var resourcePath   = loader.resourcePath;
-  var params = loaderUtils.parseQuery(loader.query);
-  var aliases  = params.plugins || loader.options.aliasesResolve;
-  var callback = loader.async();
+module.exports = function (source) {
+  var resourcePath   = this.resourcePath;
+  var options = loaderUtils.getOptions(this);
 
-  callback(null, cssAliasses(fs.readFileSync(resourcePath, 'utf8'), resourcePath, aliases));
-
-  return;
+  this.callback(null, cssAliasses(fs.readFileSync(resourcePath, 'utf8'), resourcePath, options.alias));
 };
